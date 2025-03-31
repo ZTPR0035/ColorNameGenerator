@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ColorNameGenerator"
-  spec.version = "0.0.3"
+  spec.version = "0.0.5"
   spec.summary      = "Find Color name using the dependency"
 
   # This description is used to generate tags and improve search results.
@@ -38,6 +38,8 @@ Pod::Spec.new do |spec|
   #  CocoaPods will detect a license file if there is a named LICENSE*
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
+  spec.license          = { :type => 'MIT', :file => 'LICENSE' }
+
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
