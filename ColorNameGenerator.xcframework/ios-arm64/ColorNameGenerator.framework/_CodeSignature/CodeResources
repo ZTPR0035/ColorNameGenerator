@@ -28,10 +28,6 @@
 		<data>
 		rGYn1+Yq0yc+MfQHURAlpqz3Xbw=
 		</data>
-		<key>Modules/ColorNameGenerator.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<data>
-		OC6T2CyEeeNp6+JlmxSsg9+ChkM=
-		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		skmjAnz/lKjaIoPZLFwSkNaeATw=
@@ -72,13 +68,6 @@
 			<key>hash2</key>
 			<data>
 			6Y7YZp3YP4U1dg6rGsuvurauGPwahFXdKDDfPJ0NSts=
-			</data>
-		</dict>
-		<key>Modules/ColorNameGenerator.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VgCihnYVUN9D3mML5rdjooSMe0ZMC9w+BDtqEPY1ebo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
