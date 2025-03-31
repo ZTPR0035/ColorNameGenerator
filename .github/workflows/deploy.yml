@@ -1,0 +1,45 @@
+name: "Publish to CocoaPods on Main Push"
+
+on:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: cocoapods_publish
+  cancel-in-progress: false
+
+env:
+  COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
+
+jobs:
+  Publish:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+
+      - name: Extract Version from Podspec
+        id: version_extractor
+        run: |
+          VERSION=$(grep -E 'spec.version\s*=\s*"[^"]*"' ColorNameGenerator.podspec | sed -E 's/.*spec.version\s*=\s*"([^"]*)".*/\1/')
+          echo "Current version: $VERSION"
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Setup Ruby and Cocoapods
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+
+      - name: Validate Podspec
+        run: pod lib lint --allow-warnings --verbose
+
+      - name: Publish to Cocoapods Trunk
+        run: pod trunk push ColorNameGenerator.podspec --allow-warnings --verbose
+        env:
+          COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
