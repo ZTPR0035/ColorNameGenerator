@@ -1,6 +1,0 @@
-framework module ColorNameGenerator {
-  umbrella header "ColorNameGenerator.h"
-  export *
-
-  module * { export * }
-}

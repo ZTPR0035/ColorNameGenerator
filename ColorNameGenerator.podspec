@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ColorNameGenerator"
-  spec.version = "1.0.0"
+  spec.version = "1.0.2"
   spec.summary      = "Find Color name using the dependency"
 
   # This description is used to generate tags and improve search results.
