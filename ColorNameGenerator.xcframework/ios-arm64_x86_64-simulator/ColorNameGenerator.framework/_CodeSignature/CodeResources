@@ -28,6 +28,10 @@
 		<data>
 		j2RKfivJqkyxQO6RJu1pus/TVJI=
 		</data>
+		<key>Modules/ColorNameGenerator.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		sdk81QeI1NueYId9qpnK8COteaM=
+		</data>
 		<key>Modules/ColorNameGenerator.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
 		1VZO4axH5Isk/ZMW71ISTod3PrM=
@@ -43,6 +47,10 @@
 		<key>Modules/ColorNameGenerator.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
 		fbyFbptBMUi7dW64cjeypLtUqm4=
+		</data>
+		<key>Modules/ColorNameGenerator.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		kTN6LCVQySoDk7G3ya+t+JBxc5o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -86,6 +94,13 @@
 			sGcl2ZRVnbMzdOUsHhSRnCGu7052SjIGjW4Z/lvXyt8=
 			</data>
 		</dict>
+		<key>Modules/ColorNameGenerator.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aM0iMwOopukBA9FojSN3bwUDlLdZeSGZoxgzhbNkVwg=
+			</data>
+		</dict>
 		<key>Modules/ColorNameGenerator.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
@@ -112,6 +127,13 @@
 			<key>hash2</key>
 			<data>
 			kgO81bHV/2Hyd0OBGMiRjDceuSqTOVHfDZc2QY9tqwE=
+			</data>
+		</dict>
+		<key>Modules/ColorNameGenerator.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OtnPcrmHa6diHVD9JaWpkEAtLSYgc459z1Yp23i/5aM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

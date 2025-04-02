@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ColorNameGenerator"
-  spec.version = "0.0.8"
+  spec.version = "1.0.0"
   spec.summary      = "Find Color name using the dependency"
 
   # This description is used to generate tags and improve search results.
@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source       = { :git => "https://github.com/ztpr0035/ColorNameGenerator.git", :tag => "#{spec.version}" }
-
+  spec.source_files = "ColorNameGenerator/**/*.{h,m,swift}"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -103,7 +103,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
+  spec.resources = "Resources/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -135,4 +135,5 @@ Pod::Spec.new do |spec|
     spec.frameworks = 'UIKit', 'Foundation'
     spec.vendored_frameworks = 'ColorNameGenerator.xcframework'
     spec.swift_version = '5.0'
+
 end
