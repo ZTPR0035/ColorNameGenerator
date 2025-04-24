@@ -10,15 +10,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xNUsUs3a1zndqBEXk5dAI6GBKTw=
+		/E8lRHqo7wVE1OKARkWImPEPT1A=
 		</data>
 		<key>Modules/ColorNameGenerator.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		1VZO4axH5Isk/ZMW71ISTod3PrM=
+		GL0ss7tl7wRGS7jqqjmWrgM8sGQ=
 		</data>
 		<key>Modules/ColorNameGenerator.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		rGYn1+Yq0yc+MfQHURAlpqz3Xbw=
+		hjjRDo+2F3Oior/n/Ln11YKjDfs=
 		</data>
 		<key>Modules/ColorNameGenerator.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/ColorNameGenerator.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		rGYn1+Yq0yc+MfQHURAlpqz3Xbw=
+		hjjRDo+2F3Oior/n/Ln11YKjDfs=
 		</data>
 		<key>Modules/ColorNameGenerator.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		OC6T2CyEeeNp6+JlmxSsg9+ChkM=
+		VrrdlDF8m7rZpMjuczehFQNUR6s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,14 +50,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RowdfN41WA1Buy2Iy6nYDHGMh35rlKux4cIGCNcv1/Q=
+			WMVqdEkFm6cKBGT5VafLTGQKH7ia8jUsflSUt+oPEUc=
 			</data>
 		</dict>
 		<key>Modules/ColorNameGenerator.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Y7YZp3YP4U1dg6rGsuvurauGPwahFXdKDDfPJ0NSts=
+			OHjZuewmPxJRMgP+Ibe+jV6PwvKqgN8lCHSgkALwu0E=
 			</data>
 		</dict>
 		<key>Modules/ColorNameGenerator.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -71,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Y7YZp3YP4U1dg6rGsuvurauGPwahFXdKDDfPJ0NSts=
+			OHjZuewmPxJRMgP+Ibe+jV6PwvKqgN8lCHSgkALwu0E=
 			</data>
 		</dict>
 		<key>Modules/ColorNameGenerator.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VgCihnYVUN9D3mML5rdjooSMe0ZMC9w+BDtqEPY1ebo=
+			g/AsDRStuvZFxt5yx+aBcakVjeVGCLoWjUISDxQj+5Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

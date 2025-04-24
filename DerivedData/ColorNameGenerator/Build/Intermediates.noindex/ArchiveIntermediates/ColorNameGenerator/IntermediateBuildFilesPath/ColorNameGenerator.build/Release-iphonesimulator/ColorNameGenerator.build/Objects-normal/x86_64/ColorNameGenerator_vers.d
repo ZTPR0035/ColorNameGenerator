@@ -1,0 +1,3 @@
+dependencies: \
+  /Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Build/Intermediates.noindex/ArchiveIntermediates/ColorNameGenerator/BuildProductsPath/Release-iphonesimulator/ColorNameGenerator.framework/Modules/module.modulemap \
+  /Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Build/Intermediates.noindex/ArchiveIntermediates/ColorNameGenerator/IntermediateBuildFilesPath/ColorNameGenerator.build/Release-iphonesimulator/ColorNameGenerator.build/DerivedSources/ColorNameGenerator_vers.c

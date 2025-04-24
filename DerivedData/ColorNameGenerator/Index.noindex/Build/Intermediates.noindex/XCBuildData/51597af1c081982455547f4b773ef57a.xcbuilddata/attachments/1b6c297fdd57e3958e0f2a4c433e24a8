@@ -1,0 +1,12 @@
+{
+  "" : {
+    "dependencies" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Index.noindex/Build/Intermediates.noindex/ColorNameGenerator.build/Debug-iphonesimulator/ColorNameGenerator.build/Objects-normal/arm64/ColorNameGenerator-master.d",
+    "diagnostics" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Index.noindex/Build/Intermediates.noindex/ColorNameGenerator.build/Debug-iphonesimulator/ColorNameGenerator.build/Objects-normal/arm64/ColorNameGenerator-master.dia",
+    "emit-module-dependencies" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Index.noindex/Build/Intermediates.noindex/ColorNameGenerator.build/Debug-iphonesimulator/ColorNameGenerator.build/Objects-normal/arm64/ColorNameGenerator-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Index.noindex/Build/Intermediates.noindex/ColorNameGenerator.build/Debug-iphonesimulator/ColorNameGenerator.build/Objects-normal/arm64/ColorNameGenerator-master-emit-module.dia",
+    "swift-dependencies" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Index.noindex/Build/Intermediates.noindex/ColorNameGenerator.build/Debug-iphonesimulator/ColorNameGenerator.build/Objects-normal/arm64/ColorNameGenerator-master.swiftdeps"
+  },
+  "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/ColorNameGenerator/GetColorName.swift" : {
+
+  }
+}

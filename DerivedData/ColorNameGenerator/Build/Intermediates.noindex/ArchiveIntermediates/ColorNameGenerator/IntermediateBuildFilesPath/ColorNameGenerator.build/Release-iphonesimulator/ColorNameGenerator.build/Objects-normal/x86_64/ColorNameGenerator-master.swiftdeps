@@ -1,0 +1,6 @@
+version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+options: "51d017dcd7d9fe544a92ca21c94c8110b24fad775cb861b0fb3b9cfe11b8c1f7"
+build_start_time: [1745489936, 612336000]
+build_end_time: [1745489968, 886973000]
+inputs:
+  "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/ColorNameGenerator/GetColorName.swift": [1745478933, 674656139]

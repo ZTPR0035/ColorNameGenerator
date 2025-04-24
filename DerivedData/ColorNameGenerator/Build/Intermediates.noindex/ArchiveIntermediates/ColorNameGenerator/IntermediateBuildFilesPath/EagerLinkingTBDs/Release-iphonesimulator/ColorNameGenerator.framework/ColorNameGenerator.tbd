@@ -1,0 +1,92 @@
+{
+  "main_library": {
+    "exported_symbols": [
+      {
+        "data": {
+          "global": [
+            "_$s18ColorNameGenerator6ColorsO2eeoiySbAC_ACtFZ",
+            "_$s18ColorNameGenerator03GetaB0CMm",
+            "_$s18ColorNameGenerator03GetaB0Cfd",
+            "_$s18ColorNameGenerator03GetaB0CMu",
+            "_$s18ColorNameGenerator03GetaB0CACycfC",
+            "_$s18ColorNameGenerator03GetaB0CACycfc",
+            "_$s18ColorNameGenerator0A11DisplayViewC5frameACSo6CGRectV_tcfC",
+            "_$s18ColorNameGenerator6ColorsO3redyA2CmFWC",
+            "_$s18ColorNameGenerator6ColorsO9hashValueSivpMV",
+            "_$s18ColorNameGenerator6ColorsO6yellowyA2CmFWC",
+            "_$s18ColorNameGenerator03GetaB0C03getA11DisplayView5frameSo6UIViewCSo6CGRectV_tFTq",
+            "_$s18ColorNameGenerator0A11DisplayViewC5colorAcA6ColorsO_tcfc",
+            "_$s18ColorNameGenerator0A11DisplayViewCMo",
+            "_$s18ColorNameGenerator03GetaB0CN",
+            "_$s18ColorNameGenerator6ColorsO5whiteyA2CmFWC",
+            "_$s18ColorNameGenerator6ColorsO5greenyA2CmFWC",
+            "_$s18ColorNameGenerator6ColorsON",
+            "_$s18ColorNameGenerator03GetaB0CMn",
+            "_$s18ColorNameGenerator6ColorsOMn",
+            "_$s18ColorNameGenerator03GetaB0CMa",
+            "_$s18ColorNameGenerator0A11DisplayViewCN",
+            "_$s18ColorNameGenerator6ColorsOSQAAMc",
+            "_ColorNameGeneratorVersionString",
+            "_$s18ColorNameGenerator0A11DisplayViewCMu",
+            "_$s18ColorNameGenerator0A11DisplayViewC5colorAcA6ColorsO_tcfCTq",
+            "_$s18ColorNameGenerator6ColorsO8allCasesSayACGvgZ",
+            "_ColorNameGeneratorVersionNumber",
+            "_$s18ColorNameGenerator6ColorsO4nameSSvg",
+            "_$s18ColorNameGenerator0A11DisplayViewC5colorAcA6ColorsO_tcfC",
+            "_$s18ColorNameGenerator6ColorsO5blackyA2CmFWC",
+            "_$s18ColorNameGenerator0A11DisplayViewC5colorAcA6ColorsO_tcfCTj",
+            "_$s18ColorNameGenerator0A11DisplayViewCMa",
+            "_$s18ColorNameGenerator6ColorsO4hash4intoys6HasherVz_tF",
+            "_$s18ColorNameGenerator0A11DisplayViewC5frameACSo6CGRectV_tcfc",
+            "_$s18ColorNameGenerator6ColorsO4blueyA2CmFWC",
+            "_$s18ColorNameGenerator6ColorsOs12CaseIterableAAMc",
+            "_$s18ColorNameGenerator03GetaB0C03getA11DisplayView5frameSo6UIViewCSo6CGRectV_tFTj",
+            "_$s18ColorNameGenerator03GetaB0CfD",
+            "_$s18ColorNameGenerator6ColorsO4nameSSvpMV",
+            "_$s18ColorNameGenerator03GetaB0CACycfCTq",
+            "_$s18ColorNameGenerator6ColorsO02uiA0So7UIColorCvpMV",
+            "_$s18ColorNameGenerator0A11DisplayViewCMn",
+            "_$s18ColorNameGenerator03GetaB0CACycfCTj",
+            "_$s18ColorNameGenerator6ColorsO02uiA0So7UIColorCvg",
+            "_$s18ColorNameGenerator6ColorsOMa",
+            "_$s18ColorNameGenerator6ColorsO9hashValueSivg",
+            "_$s18ColorNameGenerator0A11DisplayViewCfD",
+            "_$s18ColorNameGenerator03GetaB0CMo",
+            "_$s18ColorNameGenerator6ColorsOSHAAMc"
+          ],
+          "objc_class": [
+            "_TtC18ColorNameGenerator16ColorDisplayView"
+          ]
+        }
+      }
+    ],
+    "flags": [
+      {
+        "attributes": [
+          "not_app_extension_safe"
+        ]
+      }
+    ],
+    "install_names": [
+      {
+        "name": "@rpath/ColorNameGenerator.framework/ColorNameGenerator"
+      }
+    ],
+    "swift_abi": [
+      {
+        "abi": 7
+      }
+    ],
+    "target_info": [
+      {
+        "min_deployment": "18.2",
+        "target": "x86_64-ios-simulator"
+      },
+      {
+        "min_deployment": "18.2",
+        "target": "arm64-ios-simulator"
+      }
+    ]
+  },
+  "tapi_tbd_version": 5
+}

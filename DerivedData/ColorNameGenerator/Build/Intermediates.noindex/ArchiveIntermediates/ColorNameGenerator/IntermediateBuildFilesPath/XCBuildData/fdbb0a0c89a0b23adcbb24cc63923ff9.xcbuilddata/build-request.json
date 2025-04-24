@@ -1,0 +1,82 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "4aac7bc5b68045eaf3267d9f094d4258a75a56fb87d6cf0551369ace4a827bc7"
+    }
+  ],
+  "containerPath" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/ColorNameGenerator.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "install",
+    "activeArchitecture" : "undefined_arch",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator18.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "i386",
+        "x86_64"
+      ],
+      "targetArchitecture" : "undefined_arch"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Build/Products",
+      "derivedDataPath" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "BUILD_LIBRARY_FOR_DISTRIBUTION" : "YES",
+          "SKIP_INSTALL" : "NO"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "install",
+          "ASSET_PACK_FOLDER_PATH" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Build/Intermediates.noindex/ArchiveIntermediates/ColorNameGenerator/InstallationBuildProductsLocation/OnDemandResources",
+          "ASSETCATALOG_COMPILER_FLATTENED_APP_ICON_PATH" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Build/Intermediates.noindex/ArchiveIntermediates/ColorNameGenerator/BuildProductsPath/ProductIcon.png",
+          "COLOR_DIAGNOSTICS" : "YES",
+          "DEPLOYMENT_LOCATION" : "YES",
+          "DEPLOYMENT_POSTPROCESSING" : "YES",
+          "diagnostic_message_length" : "106",
+          "DSTROOT" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Build/Intermediates.noindex/ArchiveIntermediates/ColorNameGenerator/InstallationBuildProductsLocation",
+          "EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE" : "NO",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_SIGNATURE_AGGREGATION" : "YES",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "INDEX_ENABLE_DATA_STORE" : "NO",
+          "MESSAGES_APPLICATION_EXTENSION_SUPPORT_FOLDER_PATH" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Build/Intermediates.noindex/ArchiveIntermediates/ColorNameGenerator/BuildProductsPath/MessagesApplicationExtensionSupport",
+          "MESSAGES_APPLICATION_SUPPORT_FOLDER_PATH" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Build/Intermediates.noindex/ArchiveIntermediates/ColorNameGenerator/BuildProductsPath/MessagesApplicationSupport",
+          "OBJROOT" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Build/Intermediates.noindex/ArchiveIntermediates/ColorNameGenerator/IntermediateBuildFilesPath",
+          "ONLY_ACTIVE_ARCH" : "YES",
+          "SHARED_PRECOMPS_DIR" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Build/Intermediates.noindex/ArchiveIntermediates/ColorNameGenerator/PrecompiledHeaders",
+          "SIGNATURE_METADATA_FOLDER_PATH" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Build/Intermediates.noindex/ArchiveIntermediates/ColorNameGenerator/BuildProductsPath/Signatures",
+          "SWIFT_STDLIB_TOOL_UNSIGNED_DESTINATION_DIR" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Build/Intermediates.noindex/ArchiveIntermediates/ColorNameGenerator/BuildProductsPath/SwiftSupport",
+          "SYMROOT" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Build/Intermediates.noindex/ArchiveIntermediates/ColorNameGenerator/BuildProductsPath",
+          "WATCHKIT_2_SUPPORT_FOLDER_PATH" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Build/Intermediates.noindex/ArchiveIntermediates/ColorNameGenerator/BuildProductsPath/WatchKitSupport2"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "archive",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

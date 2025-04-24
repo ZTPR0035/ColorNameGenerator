@@ -1,5 +1,5 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/apple/Library/Developer/Xcode/DerivedData/ColorNameGenerator-etyblimejrxreffvqfpznvqmzowv/Build/Intermediates.noindex/ArchiveIntermediates/ColorNameGenerator/InstallationBuildProductsLocation/Library/Frameworks/ColorNameGenerator.framework/ColorNameGenerator'
+binary-path:     '/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Build/Intermediates.noindex/ArchiveIntermediates/ColorNameGenerator/InstallationBuildProductsLocation/Library/Frameworks/ColorNameGenerator.framework/ColorNameGenerator'
 relocations:     []
 ...

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>11</integer>
+	<key>logs</key>
+	<dict>
+		<key>AFF23856-D6CA-4E2C-A5EC-9ADDFBBA8828</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AFF23856-D6CA-4E2C-A5EC-9ADDFBBA8828.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ColorNameGenerator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ColorNameGenerator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Archiving project ColorNameGenerator with scheme ColorNameGenerator</string>
+			<key>timeStartedRecording</key>
+			<real>767182721.75727105</real>
+			<key>timeStoppedRecording</key>
+			<real>767182768.91596794</real>
+			<key>title</key>
+			<string>Archiving project ColorNameGenerator with scheme ColorNameGenerator</string>
+			<key>uniqueIdentifier</key>
+			<string>AFF23856-D6CA-4E2C-A5EC-9ADDFBBA8828</string>
+		</dict>
+		<key>DA607581-ABCD-4888-81FF-4488CE4B901D</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DA607581-ABCD-4888-81FF-4488CE4B901D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ColorNameGenerator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ColorNameGenerator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Archiving project ColorNameGenerator with scheme ColorNameGenerator</string>
+			<key>timeStartedRecording</key>
+			<real>767182658.61610198</real>
+			<key>timeStoppedRecording</key>
+			<real>767182701.29400802</real>
+			<key>title</key>
+			<string>Archiving project ColorNameGenerator with scheme ColorNameGenerator</string>
+			<key>uniqueIdentifier</key>
+			<string>DA607581-ABCD-4888-81FF-4488CE4B901D</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
