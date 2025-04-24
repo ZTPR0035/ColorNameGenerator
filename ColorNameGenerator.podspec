@@ -13,11 +13,4 @@ Pod::Spec.new do |spec|
   spec.frameworks = 'UIKit', 'Foundation'
   spec.vendored_frameworks = 'ColorNameGenerator.xcframework'
   spec.swift_version = '5.0'
-  spec.script_phase = {
-  :name => 'Sign XCFramework',
-  :script => <<-SCRIPT
-    codesign --force --deep --sign - "${PODS_ROOT}/ColorNameGenerator/ColorNameGenerator.xcframework/ios-arm64/ColorNameGenerator.framework"
-    codesign --force --deep --sign - "${PODS_ROOT}/ColorNameGenerator/ColorNameGenerator.xcframework/ios-arm64_x86_64-simulator/ColorNameGenerator.framework"
-  SCRIPT
-}
 end
