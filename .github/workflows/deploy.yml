@@ -23,6 +23,13 @@ jobs:
           fetch-depth: 0
           fetch-tags: true
 
+      - name: Extract Version from Podspec
+        id: version_extractor
+        run: |
+          VERSION=$(grep -E 'spec.version\s*=\s*"[^"]*"' ColorNameGenerator.podspec | sed -E 's/.*spec.version\s*=\s*"([^"]*)".*/\1/')
+          echo "Current version: $VERSION"
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
       - name: Setup Ruby and Cocoapods
         uses: ruby/setup-ruby@v1
         with:
