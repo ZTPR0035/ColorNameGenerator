@@ -41,8 +41,10 @@ jobs:
           cp ColorNameGenerator.podspec ColorNameGenerator_temp.podspec
           # Strip the 'v' from spec.version
           sed -i '' -E 's/spec.version\s*=\s*"v([^"]+)"/spec.version = "\1"/' ColorNameGenerator_temp.podspec
-          # Make sure :tag uses "v" prefix explicitly since we removed it from spec.version
+          # Ensure :tag uses "v" prefix explicitly since we removed it from spec.version
           sed -i '' -E 's/:tag\s*=>\s*"#\{spec.version\}"/:tag => "v#{spec.version}"/' ColorNameGenerator_temp.podspec
+          # Rename the temp file to match the podspec name
+          mv ColorNameGenerator_temp.podspec ColorNameGenerator.podspec
 
       - name: Validate Patched Podspec
         run: pod lib lint ColorNameGenerator_temp.podspec --allow-warnings --verbose
