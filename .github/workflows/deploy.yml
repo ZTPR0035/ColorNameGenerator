@@ -27,8 +27,8 @@ jobs:
         id: version_extractor
         run: |
           VERSION=$(grep -E 'spec.version\s*=\s*"[^"]*"' ColorNameGenerator.podspec | sed -E 's/.*spec.version\s*=\s*"([^"]*)".*/\1/')
-          echo "Current version: $VERSION"
-          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Extracted version: $VERSION"
+          echo "version=$VERSION" >> $GITHUB_ENV
 
       - name: Setup Ruby and Cocoapods
         uses: ruby/setup-ruby@v1
@@ -36,16 +36,21 @@ jobs:
           ruby-version: '3.1'
           bundler-cache: true
 
-      - name: Ensure Correct Git Tag Exists
+      - name: Ensure Git Tag Exists for This Version
         run: |
-          git tag ${{ steps.version_extractor.outputs.version }}
-          git push origin ${{ steps.version_extractor.outputs.version }}
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          if git rev-parse "v$version" >/dev/null 2>&1; then
+            echo "Tag v$version already exists."
+          else
+            git tag v$version
+            git push origin v$version
+          fi
 
       - name: Validate Podspec
         run: pod lib lint ColorNameGenerator.podspec --allow-warnings --verbose
 
-      - name: Publish to Cocoapods Trunk (using Git tag)
-        run: |
-          pod trunk push ColorNameGenerator.podspec --allow-warnings --verbose --tag ${{ steps.version_extractor.outputs.version }}
+      - name: Publish to CocoaPods Trunk
+        run: pod trunk push ColorNameGenerator.podspec --allow-warnings --verbose
         env:
           COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
