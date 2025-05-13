@@ -38,14 +38,14 @@ jobs:
 
       - name: Ensure Correct Git Tag Exists
         run: |
-          git tag v${{ steps.version_extractor.outputs.version }}
-          git push origin v${{ steps.version_extractor.outputs.version }}
+          git tag ${{ steps.version_extractor.outputs.version }}
+          git push origin ${{ steps.version_extractor.outputs.version }}
 
       - name: Validate Podspec
         run: pod lib lint ColorNameGenerator.podspec --allow-warnings --verbose
 
       - name: Publish to Cocoapods Trunk (using Git tag)
         run: |
-          pod trunk push ColorNameGenerator.podspec --allow-warnings --verbose --tag v${{ steps.version_extractor.outputs.version }}
+          pod trunk push ColorNameGenerator.podspec --allow-warnings --verbose --tag ${{ steps.version_extractor.outputs.version }}
         env:
           COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
