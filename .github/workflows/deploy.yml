@@ -36,6 +36,18 @@ jobs:
           ruby-version: '3.1'
           bundler-cache: true
 
+      - name: Modify Podspec Version (Remove Prefix)
+        run: |
+          # Remove the "v" prefix from the version in the podspec
+          sed -i '' -E 's/^spec.version\s*=\s*"v([^"]+)"/spec.version = "\1"/' ColorNameGenerator.podspec
+          
+          # Commit the change
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git add ColorNameGenerator.podspec
+          git commit -m "Remove 'v' prefix from version in podspec"
+          git push origin main
+
       - name: Validate Podspec
         run: pod lib lint --allow-warnings --verbose
 
