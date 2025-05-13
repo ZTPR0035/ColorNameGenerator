@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E0D158CDBDBCC07DEF4E84E2B5121301712C88B6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E0D158CDBDBCC07DEF4E84E2B5121301712C88B6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "705DD8FF-AD7E-4A3D-BE67-14A4E23DC0F9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E0D158CDBDBCC07DEF4E84E2B5121301712C88B6" : "ColorNameGenerator\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ColorNameGenerator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ColorNameGenerator.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ZTPR0035\/ColorNameGenerator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E0D158CDBDBCC07DEF4E84E2B5121301712C88B6"
+    }
+  ]
+}

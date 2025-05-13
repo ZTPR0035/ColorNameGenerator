@@ -1,0 +1,60 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "4aac7bc5b68045eaf3267d9f094d4258a75a56fb87d6cf0551369ace4a827bc7"
+    }
+  ],
+  "containerPath" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/ColorNameGenerator.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator18.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Build/Products",
+      "pchPath" : "/Users/applessd/Documents/iOS-SDK/ColorNameGenerator/DerivedData/ColorNameGenerator/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

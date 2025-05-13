@@ -1,0 +1,4 @@
+Target dependency graph (3 targets)
+Target 'ColorNameGenerator' in project 'ColorNameGenerator' (no dependencies)
+Target 'ColorNameGenerator' in project 'ColorNameGenerator' (no dependencies)
+Target 'ColorNameGenerator' in project 'ColorNameGenerator' (no dependencies)
