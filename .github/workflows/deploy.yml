@@ -53,8 +53,6 @@ jobs:
           git add ColorNameGenerator.podspec
           git commit -m "Remove 'v' prefix from version in podspec" || echo "No changes to commit"
           git push origin main
-        env:
-        COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
 
       - name: Validate Podspec
         run: pod lib lint --allow-warnings --verbose
