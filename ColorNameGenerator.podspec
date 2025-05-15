@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "ColorNameGenerator"
-  spec.version = "1.0.9"
+  spec.version = "v1.1.0"
   spec.summary      = "Find Color name using the dependency"
   spec.description  = <<-DESC
           Find Color name using the dependency.
