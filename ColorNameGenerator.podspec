@@ -14,3 +14,5 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = 'ColorNameGenerator.xcframework'
   spec.swift_version = '5.0'
 end
+
+
