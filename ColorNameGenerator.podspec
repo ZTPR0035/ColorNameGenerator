@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
           Find Color name using the dependency.
         DESC
-  spec.homepage     = "https://github.com/ztpr0035/ColorNameGenerator"
+  spec.homepage     = "https://github.com/axeldeploy/uptick-ios"
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.author             = { "Zehntech" => "piyush.zehntech@gmail.com" }
   spec.source       = { :git => "https://github.com/ztpr0035/ColorNameGenerator.git", :tag => "v#{spec.version}" }
